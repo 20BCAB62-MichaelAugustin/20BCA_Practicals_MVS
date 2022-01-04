@@ -1,0 +1,6 @@
+setwd("C:/Users/Michael Augustine/Dropbox/PC/Desktop/data")
+data=read.csv("CarPrice_Assignment.csv")
+View(data)
+head(data)
+mean(data$carlength)
+t.test(data$price,mu=160,conf.level = 0.95)
